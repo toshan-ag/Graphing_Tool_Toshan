@@ -9,7 +9,7 @@ Features:
     * During login, if username does not exist, then prompt user to register as a new user.
     * During registration, check if username already exists. If password matches then prompt that user is already resgitered. If password doesn't match, then prompt the user to use a different username. If uername does not exist, then register user.
 - After successful login, the TOOL moves to the terminal and it provides three choices:
-    * Plot data from a csv file => Implemented using csv module, matplotlib and file handling methods.
+    * Plot data from a csv file named Phy.csv => Implemented using csv module, matplotlib and file handling methods.
     * Plot an equation of the form y = f(x) => Implemented using matplotlib and numpy
     * Plot the data of closing prices of stocks over a specified range of time => implemented using datetime, yfinance and pandas modules.
     * Exit
